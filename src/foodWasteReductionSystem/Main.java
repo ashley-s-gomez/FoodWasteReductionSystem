@@ -6,7 +6,7 @@ public class Main {
 		//instantiated a new object called inventory
 		FoodInventorySystem inventory = new FoodInventorySystem();
 		
-		FoodItem milk = new FoodItem(1, "Milk", "Dairy", 5, "2026-10-22", true);
+		FoodItem milk = new FoodItem(1, "Milk", "Dairy", 5, "2026-10-22", false);
 		inventory.addFood(milk);
 		milk.setQuantity(3);
 		
